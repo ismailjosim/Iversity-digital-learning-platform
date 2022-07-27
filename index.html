@@ -24,12 +24,15 @@
     <body>
 
         <!--========== HEADER SECTION START   ==========-->
+        <!-- top: 50%;
+        transform: translateY(-50%); -->
         <header id="header">
             <!-- navigation bar -->
-            <div class="navigation bg-light py-2">
+            <div class="navigation bg-light">
                 <div class="container">
+                    <!-- navigation -->
                     <nav class="navbar navbar-expand-lg navbar-expand-md navbar-light">
-                        <a href="#" class="navbar-brand">Iversity</a>
+                        <a href="#" class="navbar-brand fw-bold fs-4 text-uppercase">Iversity</a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                             data-bs-target="#mobileMenu" aria-controls="mobileMenu" aria-expanded="false"
                             aria-label="Toggle navigation">
@@ -38,23 +41,88 @@
                         <div class="collapse navbar-collapse" id="mobileMenu">
                             <ul class="navbar-nav ms-auto text-center">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Home</a>
+                                    <a class="nav-link fs-5 fw-smibold" href="#">Home</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Shoes</a>
+                                    <a class="nav-link fs-5 fw-smibold" href="#">Shoes</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Backpack</a>
+                                    <a class="nav-link fs-5 fw-smibold" href="#">Backpack</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Subscribe</a>
+                                    <a class="nav-link fs-5 fw-smibold" href="#">Subscribe</a>
                                 </li>
                             </ul>
                         </div>
                     </nav>
                 </div>
             </div>
+            <!-- navigation -->
+            <!-- Hero Slider -->
+            <div id="hero_slider" class="carousel slide" data-bs-ride="carousel">
+                <!-- indicators -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#hero_slider" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#hero_slider" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#hero_slider" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
 
+                <div class="carousel-inner">
+                    <!-- slide 01 -->
+                    <div class="carousel-item active">
+                        <span class="overlay"></span>
+                        <img src="images/cover/cover-1.png" class="img-fluid d-block w-100" alt="slider image">
+                        <div class="carousel-caption d-block active position-absolute bottom-25 pb-lg-5">
+                            <h2 class="fs-2 primary_heading fw-bold text-uppercase ">Get Ready for Take‑Off
+                            </h2>
+                            <p>Give yourself an upgrade with our inspiring online courses and join a global community of
+                                learners</p>
+                            <a href="" class="btn btn-lg btn-info text-white fw-bold px-lg-4 py-lg-2 px-2 py-1">Find A
+                                Course</a>
+                        </div>
+                    </div>
+                    <!-- slide 02 -->
+                    <div class="carousel-item">
+                        <span class="overlay"></span>
+                        <img src="images/cover/cover-2.png" class="img-fluid d-block w-100" alt="slider image">
+                        <div class="carousel-caption d-block active position-absolute bottom-25 pb-lg-5">
+                            <h2 class="fs-2 primary_heading fw-bold text-uppercase ">Get Ready for Take‑Off
+                            </h2>
+                            <p>Give yourself an upgrade with our inspiring online courses and join a global community of
+                                learners</p>
+                            <a href="" class="btn btn-lg btn-info text-white fw-bold px-lg-4 py-lg-2 px-2 py-1">Find A
+                                Course</a>
+                        </div>
+                    </div>
+                    <!-- slide 02 -->
+                    <div class="carousel-item">
+                        <span class="overlay"></span>
+                        <img src="images/cover/cover-3.jpg" class="img-fluid d-block w-100" alt="slider image">
+                        <div class="carousel-caption d-block active position-absolute bottom-25 pb-lg-5">
+                            <h2 class="fs-2 primary_heading fw-bold text-uppercase ">Get Ready for Take‑Off
+                            </h2>
+                            <p>Give yourself an upgrade with our inspiring online courses and join a global community of
+                                learners</p>
+                            <a href="" class="btn btn-lg btn-info text-white fw-bold px-lg-4 py-lg-2 px-2 py-1">Find A
+                                Course</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- carousel control -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#hero_slider" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#hero_slider" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">next</span>
+                </button>
+
+            </div>
+        </header>
         </header>
         <!--========== HEADER SECTION END   ==========-->
         <!--========== MAIN SECTION START   ==========-->
