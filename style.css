@@ -12,3 +12,11 @@ body {
     background: #000;
     opacity: 0.5;
 }
+
+.body_text {
+    color: #777;
+}
+
+.secondary_heading {
+    color: #4A4A4A;
+}
