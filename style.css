@@ -20,3 +20,8 @@ body {
 .secondary_heading {
     color: #4A4A4A;
 }
+
+.carousel-caption {
+    position: absolute;
+    top: 40%;
+}
