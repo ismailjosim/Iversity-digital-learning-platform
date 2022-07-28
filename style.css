@@ -25,3 +25,21 @@ body {
     position: absolute;
     top: 40%;
 }
+
+.footer_link {
+    transition: all .5s ease-in-out;
+}
+
+.footer_link:hover {
+    background-color: #1096d4 !important;
+}
+
+.footer_links a:hover {
+    color: #1096d4 !important;
+    transition: 0.3s ease-in-out;
+}
+
+.footer_link:hover a i {
+    color: #ffffff !important;
+
+}
