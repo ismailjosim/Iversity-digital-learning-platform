@@ -2,34 +2,6 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
-.overlay {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: #000;
-    opacity: 0.5;
-}
-
-.body_text {
-    color: #777;
-}
-
-.secondary_heading {
-    color: #4A4A4A;
-}
-
-.carousel-caption {
-    position: absolute;
-    top: 40%;
-}
-
-.footer_link {
-    transition: all .5s ease-in-out;
-}
-
 .footer_link:hover {
     background-color: #1096d4 !important;
 }
