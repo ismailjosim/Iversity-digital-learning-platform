@@ -31,17 +31,16 @@
             }
 
             .footer_link:hover {
-                background-color: #1096d4 !important;
-            }
-
-            .footer_links a:hover {
                 color: #1096d4 !important;
                 transition: 0.3s ease-in-out;
             }
 
-            .footer_link:hover a i {
-                color: #ffffff !important;
+            i {
+                transition: 0.3s ease-in-out;
+            }
 
+            i:hover {
+                background-color: #1096d4 !important;
             }
         </style>
     </head>
@@ -703,35 +702,36 @@
                     <a href="index.html" class="navbar-brand fw-bold fs-4 text-uppercase text-white">Iversity</a>
                     <p class="pt-3">Office 41, Zawaya Buildin, Ghala Muscat, <br>
                         Sultanate of Oman</p>
-                    <div class="py-2 footer_links">
+                    <div class="py-3 footer_links">
                         <a href="index.html"
-                            class="text-decoration-none text-white border-2 border-end border-white pe-2">Privacy
+                            class="text-decoration-none fw-semibold text-white me-2 footer_link">Privacy
                             Policy</a>
-                        <a href="index.html" class="text-decoration-none text-white">Terms of use</a>
+                        <span>|</span>
+                        <a href="index.html" class="text-decoration-none fw-semibold text-light ms-2 footer_link">Terms
+                            of
+                            use</a>
                     </div>
                 </div>
-                <ul class="navbar-nav d-flex flex-row text-center">
-                    <li class="nav-item bg-white px-2 rounded-circle mx-2 footer_link">
-                        <a href="https://www.facebook.com/ismailjosim99/" target="_blank" class="nav-link text-white">
-                            <i class="fab fa-facebook-f text-dark"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item bg-white px-2 rounded-circle mx-2 footer_link">
-                        <a href="https://twitter.com/ismail_josim" target="_blank" class="nav-link text-white">
-                            <i class="fab fa-twitter text-dark"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item bg-white px-2 rounded-circle mx-2 footer_link">
-                        <a href="https://www.linkedin.com/in/ismailjosim/" target="_blank" class="nav-link text-white">
-                            <i class="fab fa-linkedin-in text-dark"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item bg-white px-2 rounded-circle mx-2 footer_link">
-                        <a href="https://www.instagram.com/ismailjosim/" target="_blank" class="nav-link text-white">
-                            <i class="fab fa-instagram text-dark"></i>
-                        </a>
-                    </li>
-                </ul>
+                <div class="d-flex text-center">
+                    <a href="https://www.facebook.com/ismailjosim99/" target="_blank"
+                        class="d-block footer_social_links">
+                        <i class="fa-brands m-2 bg-secondary p-3 rounded-circle text-white fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://twitter.com/ismail_josim" target="_blank" class="d-block footer_social_links">
+                        <i
+                            class="fa-brands m-2 bg-secondary p-3 rounded-circle text-white fab fa-facebook-f fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ismailjosim/" target="_blank"
+                        class="d-block footer_social_links">
+                        <i
+                            class="fa-brands m-2 bg-secondary p-3 rounded-circle text-white fab fa-facebook-f fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://www.instagram.com/ismailjosim/" target="_blank"
+                        class="d-block footer_social_links">
+                        <i
+                            class="fa-brands m-2 bg-secondary p-3 rounded-circle text-white fab fa-facebook-f fab fa-instagram"></i>
+                    </a>
+                </div>
             </div>
 
         </footer>
